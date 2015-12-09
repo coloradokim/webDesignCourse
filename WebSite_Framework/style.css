@@ -1,0 +1,22 @@
+header {
+	height: 100px;
+	background-color: pink;
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+.wrapper {
+	width: 700px;
+	margin: auto;
+}
+
+img {
+	width: 100%;
+}
