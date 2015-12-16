@@ -3,6 +3,7 @@ body {
 	background-size: cover;
   background-repeat: no-repeat;
 	color: white;
+  text-align: center;
 }
 
 a {
@@ -16,9 +17,13 @@ header {
 	background-color: rgba(255,255,255,.5);
 	padding-top: 1em;
 	padding-left: 2em;
+  text-align: left;
 }
 
-main {
+.boxes {
+  width: 33%;
+  float:left;
+  border: 1px solid;
 }
 
 footer {

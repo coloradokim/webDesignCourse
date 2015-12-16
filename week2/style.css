@@ -18,7 +18,9 @@ header {
 	padding-left: 2em;
 }
 
-main {
+.boxes {
+  width: 33.3%;
+  float: left;
 }
 
 footer {
