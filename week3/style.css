@@ -2,6 +2,15 @@
 /* ----- =structure ----- */
 
 
+/*header {
+  height: 120px;
+  background-color: #fff;
+
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 100;
+}*/
 nav {
   background-color: #281a39;
 }
