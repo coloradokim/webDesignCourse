@@ -11,6 +11,9 @@ a {
 	display: block;
 }
 
+li {
+  text-align: left;
+}
 
 header {
 	height: 100px;
@@ -18,12 +21,6 @@ header {
 	padding-top: 1em;
 	padding-left: 2em;
   text-align: left;
-}
-
-.boxes {
-  width: 33%;
-  float:left;
-  border: 1px solid;
 }
 
 footer {
