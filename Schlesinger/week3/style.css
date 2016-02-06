@@ -1,0 +1,66 @@
+
+/*
+	STYLE.CSS:
+	One stylesheet to rule them all.
+
+	selector { property:value }
+
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,700);
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.logo a {
+  text-decoration: none;
+  margin-left: 50px;
+  color: #2f4e93;
+}
+.logo a:hover {
+  color: #ab9c40
+}
+
+#content {
+  width: 980px;
+  margin: auto;
+}
+
+#content, img {
+  width: 100%;
+}
+
+/* ----- =structure ----- */
+nav {
+    height: 60px;
+    background-color: #2f4e93;
+}
+
+/* ----- =navigation ----- */
+#top-nav {
+  float: right;
+}
+#top-nav ul {
+  margin: 0;
+  margin-right: 50px;
+  padding: 0;
+  list-style: none;
+}
+#top-nav ul li {
+  float: left;
+  display: block;
+  padding: 17px 15px 12px 15px;
+}
+#top-nav ul li a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration:none;
+}
+#top-nav ul li a:hover {
+  color: #ab9c40;
+}
+
+footer  {
+  height: 60px;
+  background-color: #2f4e93;
+}
