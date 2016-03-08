@@ -1,16 +1,12 @@
-
-/*
-	STYLE.CSS:
-	One stylesheet to rule them all.
-
-	selector { property:value }
-
-*/
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,700);
 
 body {
   font-family: 'Open Sans Condensed', sans-serif;
+}
+
+img, embed, object, video {
+  width: 100%;
+  height : auto;
 }
 
 .logo a {
@@ -63,6 +59,24 @@ footer  {
   height: 60px;
   background-color: #2f4e93;
 }
+
+/* -------- =body --------*/
+
+img {
+  margin-top: 21.44px;
+}
+
+.fa {
+  font-size: 10rem;
+  letter-spacing: 5rem;
+  color: #2f4e93;
+
+}
+.fa:hover {
+  color: #ab9c40;
+}
+
+
 
 
 /* -------- =Column Layout -------*/
