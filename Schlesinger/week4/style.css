@@ -2,6 +2,10 @@
 
 body {
   font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+
 }
 
 img, embed, object, video {
@@ -11,6 +15,7 @@ img, embed, object, video {
 
 .logo a {
   text-decoration: none;
+  letter-spacing: .1rem;
   color: #2f4e93;
 }
 
@@ -47,7 +52,9 @@ nav {
   padding: 17px 15px 12px 15px;
 }
 #top-nav ul li a {
-  font-size: 18px;
+  font-size: 1.25rem;
+  font-weight: normal;
+  letter-spacing: .25rem;
   color: #fff;
   text-decoration:none;
 }
