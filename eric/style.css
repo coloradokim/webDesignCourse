@@ -1,102 +1,90 @@
 body {
-  background-color: #e2e2e2;
+  background-color: #e3e3e3;
 }
-
+​
 .wrapper {
-  width: 1196px;
+  width: 1600px;
   margin: auto;
   background-color: #fff;
 }
-
-.header {
-  height: 300px;
-  background-color: #fff;
-  color: #42434;
-  text-align: center;
-}
-
+​
 .logo {
-  margin: auto;
-  text-align: center;
-  margin-bottom: 115px;
-  padding-top: 115px;
+  margin: left;
+  text-align: left;
+  margin-bottom: 50px;
+  padding-top: 50px;
 }
-
-.hero {
-  background-color: #fff;
-  margin: auto;
-  margin-top: 0px;
-  margin-bottom: 77px;
-  text-align: center;
-  font-family: 'Roboto', italic;
+​
+.kicker {
+  width: 600px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  line-height: 31px;
+  color: #2a2a2a;
+  font-family: 'Roboto',
 }
-
+​
 ul {
   list-style: none;
   text-align: center;
-  word-spacing: 50px;
-  background-color: #f42434;
-  color: #fff;
-  height: 70px;
+  background-color: red;
+  color: red;
+  height: 45px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   font-family:  'Roboto';
-  padding: none;
+  margin: auto;
+  word-spacing: 50px;
 }
-
+​
 li {
-  display: inline-block;
+    display: inline;
 }
-
+​
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+    display: inline;
+    text-align: left;
     text-decoration: none;
 }
-
+​
 a:hover:not(.active) {
-    color: #111;
+    color: fff;
+    text-decoration: underline;
 }
-
-
-p {
-  width: 900px;
-  margin: auto;
-}
-
-.kicker {
-  height: 300px;
-  background-color: #f3f3f3;
-}
-
-#content {
-  background-color: white;
-  height: 800px;
-  padding: 0px;
-  margin: auto;
-}
-
+​
 .row:after {
   content: " ";
   display: table;
   clear: both;
 }
-
-.sixhundred {
+​
+.one {
   float:left;
-  width:600px;
-  height:600px;
+  width:727px;
+  height:377px;
   background-color: #404040;
   color: #ffff;
   padding: px;
 }
-
-.threehundred {
+​
+.two {
   float:left;
-  width:300px;
-  height:300px;
+  width:430px;
+  height:377px;
   background-color: red;
-  padding: px;
+  position: relative;
 }
+​
+.three {
+  float:left;
+  width:284px;
+  height:377px;
+  background-color: blue;
+  position: relative;
+}
+​
+#nav_lines{
+	padding: 0px 0px 10px;
+	text-align: center;
+}
+​
